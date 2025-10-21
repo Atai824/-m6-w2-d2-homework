@@ -19,13 +19,13 @@ class Counter extends React.Component {
 
     render() {
         return (
-            <div className="card m-3" style={{ maxWidth: 360 }}>
-                <div className="card-header fw-bold">Counter</div>
-                <div className="card-body bg-info p-3">
-                    <span className="badge bg-light text-dark me-2">{this.props.count}</span>
-                    <button className="btn btn-sm btn-light me-2" onClick={this.decrement}>−</button>
-                    <button className="btn btn-sm btn-light me-2" onClick={this.increment}>+</button>
-                    <button className="btn btn-sm btn-outline-secondary" onClick={this.reset}>reset</button>
+            <div className="counter box">
+                <div className="counter-header">Counter</div>
+                <div className="counter-body">
+                    <span className="counter-badge me-2">{this.props.count}</span>
+                    <button className="btn btn-light btn-sm me-2" onClick={this.decrement}>−</button>
+                    <button className="btn btn-light btn-sm me-2" onClick={this.increment}>+</button>
+                    <button className="btn btn-outline-secondary btn-sm" onClick={this.reset}>reset</button>
                 </div>
             </div>
         );

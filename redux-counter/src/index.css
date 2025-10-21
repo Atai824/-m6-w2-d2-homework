@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.counter-header {
+  font-weight: 700;
+  padding: 6px 10px;
+  line-height: 1;
+}
+
+.counter-body {
+  background: #14c6e6;      /* бирюзовый блок */
+  padding: 10px;
+}
+
+.counter-badge {
+  display: inline-block;
+  min-width: 26px;
+  height: 24px;
+  padding: 0 6px;
+  line-height: 22px;
+  text-align: center;
+  background: #17a2b8;       /* чуть темнее квадратик слева */
+  color: #fff;
+  border: 2px solid #ffffff; /* белая окантовка как на картинке */
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* кнопки сделать компактными и "квадратными" */
+.btn.btn-light.btn-sm,
+.btn.btn-outline-secondary.btn-sm {
+  padding: 2px 8px;
+  line-height: 1;
+  border-radius: 3px;
+}
